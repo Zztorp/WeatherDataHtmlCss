@@ -1,0 +1,55 @@
+
+        
+* {
+  box-sizing: border-box;
+}
+
+
+  .row {
+  display: flex;
+}
+
+ 
+/* Create three equal columns that sits next to each other */
+ .column {
+  flex: 33.33%;
+  padding: 5px;
+}     
+        
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    }
+
+.container img {
+    margin: auto;
+    width: 500%;
+    height: 400px;
+    }
+
+.container .btn {
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    cursor: progress;
+    border-radius: 10px;
+    text-align: center;
+    }
+
+.container .btn:hover {
+    background-color: #F08080;
+    }
+
+    
+ 
+
+
+
